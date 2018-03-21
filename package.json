@@ -4,7 +4,10 @@
   "description": "Search, discover, watch, and share talking videos from VIDY in Slack.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run --silent lint && echo \"Warning: no tests specified.\"",
+    "lint": "npm run --silent eslint",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint --fix ."
   },
   "keywords": [
     "vidy",
@@ -20,5 +23,13 @@
     "email": "mig@joelpurra.se",
     "url": "https://joelpurra.com/"
   },
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
 }
