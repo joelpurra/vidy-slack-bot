@@ -1,6 +1,6 @@
 {
   "name": "vidy-slack-bot",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Search, discover, watch, and share talking videos from VIDY in Slack.",
   "main": "index.js",
   "scripts": {
