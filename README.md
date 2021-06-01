@@ -14,6 +14,14 @@
 
 Search, discover, watch, and share talking videos from [VIDY](https://vidy.com/) in [Slack](https://slack.com/).
 
+
+
+> ## ⚠️ This project has been archived
+>
+> No future updates are planned. Feel free to continue using it, but expect no support.
+
+
+
 - Create a new Slack bot to enable the [slash command](https://api.slack.com/slash-commands): `/vidy`
 - Add keywords to say what you want: `/vidy hello there`
 - Built to showcase VIDY integration using the [VIDY API](https://api.vidy.com/).
